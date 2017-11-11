@@ -1,0 +1,48 @@
+#all{
+    
+}
+h1{
+    font-family: Arial, Sans-Serif;
+    font-size: 400%;
+    margin:0;
+    padding:0 10px;
+}
+#content{
+    border: 1px silver solid;
+    padding: 3px;
+}
+
+#title{
+    margin: 0;
+    padding:0 20px;
+    background-color: #eee;
+}
+
+#title h3 {
+    margin: 0;
+    padding: 3px 0;
+}
+
+#title small {
+    color: grey;
+}
+
+
+.msg{
+	color: #00ff00;
+}
+
+.error{
+	color: #ff0000;
+}
+
+.image-gallery{
+    width: 220px;
+    height: 220px;
+    float: left;
+}
+
+.clear{
+     clear: both;
+}
+   
