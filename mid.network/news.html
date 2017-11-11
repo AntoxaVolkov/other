@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<style type="text/css">
+		body{
+			color:#111;
+		}
+
+		.about_main h2{
+			text-transform: none;
+		}
+		.banner {
+			background: url(img/bgm.jpg) no-repeat 0px 0px;
+		}
+		.gray-container{
+			background: #E9E9E9;
+			border: 3px solid #DEDEDE;
+			border-radius: 8px;
+			padding: 15px;
+		}
+		.search{
+			position: relative;
+		}
+		.search input{
+			width: 100%;
+			background: #E9E9E9;
+			border: 1px solid #002A60;
+			padding-left: 10px; 
+			padding-right: 60px; 
+			margin: 0;
+		}
+		.search .fa-search{
+			position: absolute;
+			right: 0;
+			top:0;
+			color:#002A60;
+			padding: 5px 6px;
+			cursor: pointer;
+		}
+		.search .fa-times-circle{
+			position: absolute;
+			right: 26px;
+			top:0;
+			padding: 5px 6px;
+			color:#aaa;
+			cursor: pointer;
+		}
+		.search .fa-search:hover{
+			color:#335e93;
+		}
+		.search .fa-times-circle:hover{
+			color:#777;
+		}
+		.filters select{
+			width: 70%;
+			background: #E9E9E9;
+			border: 1px solid #002A60;
+			padding-left: 10px; 
+			padding-right: 10px;
+			padding-bottom: 1px;
+			margin: 0; 
+			line-height: 16px;
+			border-right: none;
+		}
+		.filters input{
+			width: 15%;
+			background: #E9E9E9;
+			border: 1px solid #002A60;
+			padding: 1px 10px;
+			margin: 0;
+			margin-top: 0;
+			font-size: 15px;
+			line-height: 14px;
+			border-left: none;
+		}
+		.filters button{
+			width: 15%;
+			background: #002A60;
+			border: 1px solid #002A60;
+			color: #fff;
+			margin:0;
+			padding: 4px 10px;
+			line-height: 16px;
+		}
+
+		.news-list{
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
+
+		.item{
+			margin-bottom: 30px;
+		}
+
+		.picture{
+			float: left;
+		}
+
+		.item-conteiner{
+			float: left;
+			width:75%;
+		}
+
+		.item-conteiner h2{
+			margin:0;
+			text-align: left;
+			font-size: 24px;
+		}
+
+
+
+		.item-conteiner .item-content{
+			margin:0;
+			width: 100%;
+			float: none;
+			padding:5px 0 10px;
+		}
+
+		.picture img{
+			max-width: 260px;
+			max-height: 260px;
+		}
+
+		.picture{
+			margin-right: 10px;
+		}
+
+		.item .bottom-info{
+			text-align: right;
+		}
+
+		.item .bottom-info .btn-news{
+			margin-left: 15px;
+		}
+		.btn-news{
+		display: inline-block;
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+		padding:1px 25px;
+		margin:10px 0;
+		background: #002A60;
+		color: #fff;
+		font-size: 20px;
+		border: none;
+		margin-bottom: 20px;
+	}
+
+	</style>
+
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	
+	<header>
+		<div class="top_line clearfix">
+			<div class="container">
+				<div class="top_logo">
+					<a href="#"><img src="img/logo.png" alt="Логотип"></a>
+				</div>
+				<div class="top_tel">
+					<button><i class="fa fa-phone"></i><span>Заказать звонок</span></button>
+				</div>
+				<nav class="top_nav">
+					<button class="btn_top_nav hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+					<ul>
+						<li><a href="index.html" class="active" alt="Описание">Главная</a></li>
+						<li><a href="it.html" alt="Описание">Разработка и IT</a></li>
+						<li><a href="dis.html" alt="Описание">Дизайн</a></li>
+						<li><a href="mar.html" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="contacts.html" alt="Описание">Контакты</a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</div>
+		<div class="about_us banner" id="home">
+			<div class="container">
+				<div class="about_main">
+					<h1>Новости</h1>
+					<h2>Все самое интересное!</h2>
+					<button class="btn">Подробнее</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="content news">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="gray-container">
+						<div class="search">
+							<input type="text" name="search" placeholder="Поиск">
+							<i class="fa fa-times-circle"></i>
+							<i class="fa fa-search"></i>
+						</div>
+						<div class="filters">
+							<select>
+								<option>Категория</option>
+								<option>Категория 1</option>
+								<option>Категория 2</option>
+								<option>Категория 3</option>
+							</select><input type="date" name=""><button>Отмена</button>
+						</div>
+					</div>
+
+					<div class="news-list">
+						<div class="item gray-container">
+							<div class="picture"><img src="img/img7.jpg" alt=""></div>
+							<div class="item-conteiner">
+								<h2>Заголовок</h2>
+								<div class="top-info">
+									<span>Категория:</span>
+									<a href="">Новости</a>
+									<span class="soc">
+										<a href=""><img src="" alt=""></a>
+										<a href=""><img src="" alt=""></a>
+										<a href=""><img src="" alt=""></a>
+										<a href=""><img src="" alt=""></a>
+									</span>
+								</div>
+								<div class="item-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<div class="bottom-info">
+									<span>Дата: 12.03.2017</span>
+									<a class="btn-news" href="#">Подробнее</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+
+						<div class="item gray-container">
+							<div class="picture"><img src="img/img7.jpg" alt=""></div>
+							<div class="item-conteiner">
+								<h2>Заголовок</h2>
+								<div class="top-info">
+									<span>Категория:</span>
+									<a href="">Новости</a>
+									<span class="soc">
+										<img src="" alt="">
+										<img src="" alt="">
+										<img src="" alt="">
+										<img src="" alt="">
+									</span>
+								</div>
+								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<div class="bottom-info">
+									<span>Дата: 12.03.2017</span>
+									<a class="btn-news" href="#">Подробнее</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						
+						<div class="pagination"> 
+							<a href="">В начало</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">4</a>
+							<a href="">5</a>
+							<a href="">6</a>
+							<a href="">Дальше</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</main>
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="img"><img src="img/flogo.png" alt=""></div>
+					<ul>
+						<li><a href="#home" class="active" alt="Описание">Главная</a></li>
+						<li><a href="#our-services" alt="Описание">Разработка и IT</a></li>
+						<li><a href="#primeri" alt="Описание">Дизайн</a></li>
+						<li><a href="#contacts" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="#contacts" alt="Описание">Контакты</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<div class="footer-right">
+						<div class="link-mail"><a href="mailto:info@mid.network"><i class="fa fa-envelope-o"></i> info@mid.network</a></div>
+						<div class="footer-feedback"><button class="footer-btn-feedback">Заказать звонок</button></div>
+						<div class="soc"> 
+							<a href="#"><img src="img/img14.png" alt=""></a>
+							<a href="#"><img src="img/img15.png" alt=""></a>
+							<a href="#"><img src="img/img16.png" alt=""></a>
+							<a href="#"><img src="img/img17.png" alt=""></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copy">Авторские права защищены любое копирование запрещено! 2017</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script type="text/javascript">
+		//Плавный скролл до блока .div по клику на .scroll
+		//Документация: https://github.com/flesler/jquery.scrollTo
+		$(".about_main .btn").click(function() {
+			$.scrollTo($("#feedback"), 800, {
+				offset: -80
+			});
+		});
+	</script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

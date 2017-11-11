@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<style type="text/css">
+		body{
+			color:#111;
+		}
+		.about_main h2{
+			text-transform: none;
+		}
+		.banner {
+			background: url(img/bgit.jpg) no-repeat 0px 0px;
+		}
+		.top-text{
+			background: url(img/imgit1.png) no-repeat 0px 0px;
+			background-position: 0% 50%;
+		}
+		.top-text p{
+			padding-left: 40px;
+			font-size: 24px; 
+		}
+		.block-text{
+			background: url(img/imgit2.png) no-repeat 0px 0px;
+			background-position: 100% 50%;
+		}
+		.block-text p{
+			padding-right: 10px;
+			font-size: 24px;
+		}
+		.blue-line{
+			background: linear-gradient(90deg, #7CADCA 0%, #002A60 50%, #7CADCA 100%);
+			height: 200px;
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+		.block-list{
+			background: url(img/bgit1.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover
+		}
+		.block-list ul{
+			list-style: none;
+			padding-left: 0;
+		}
+		.block-list .title{
+			text-align: center;
+			font-size: 36px;
+			color: #002A60;
+		}
+		.block-list li p{
+			font-size: 24px;
+		}
+		.block-list li{
+			padding-left:110px;
+		}
+		.block-list li:nth-child(1){
+			background: url(img/imgit3.jpg) no-repeat;
+		}
+		.block-list li:nth-child(2){
+			background: url(img/imgit4.jpg) no-repeat;
+		}
+		.block-list li:nth-child(3){
+			background: url(img/imgit5.jpg) no-repeat;
+		}
+		.blue-line .bb{
+			height: 280px;
+			margin-top: -40px;
+			color: #fff;
+			border: 1px solid #A9E8FF;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .bb h2{
+			padding-top:20%; 
+			font-size: 34px;
+			text-align:center;
+		}
+		.blue-line .b1 h2,.blue-line .b4 h2{
+			padding-top:30%; 
+			font-size: 34px;
+			text-align:center;
+		}
+		.blue-line .bb:hover h2{
+			height: 0;
+			overflow: hidden;
+			display: none;
+		}
+		.blue-line .bb:hover p{
+			display: block;
+		}
+		.blue-line .bb p{
+			display: none;
+			font-size: 24px;
+			padding-top: 30px;
+		}
+		.blue-line .b1{
+			background: url(img/bgbb1.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b2{
+			background: url(img/bgbb2.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b3{
+			background: url(img/bgbb3.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b4{
+			background: url(img/bgbb4.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+
+	</style>
+
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	
+	<header>
+		<div class="top_line clearfix">
+			<div class="container">
+				<div class="top_logo">
+					<a href="#"><img src="img/logo.png" alt="Логотип"></a>
+				</div>
+				<div class="top_tel">
+					<button><i class="fa fa-phone"></i><span>Заказать звонок</span></button>
+				</div>
+				<nav class="top_nav">
+					<button class="btn_top_nav hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+					<ul>
+						<li><a href="index.html" class="active" alt="Описание">Главная</a></li>
+						<li><a href="it.html" alt="Описание">Разработка и IT</a></li>
+						<li><a href="dis.html" alt="Описание">Дизайн</a></li>
+						<li><a href="mar.html" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="#contacts" alt="Описание">Контакты</a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</div>
+		<div class="about_us banner" id="home">
+			<div class="container">
+				<div class="about_main">
+					<h1>Разработка и IT</h1>
+					<h2>Под любые цели и задачи!</h2>
+					<button class="btn">Подробнее</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="content">
+		<section>
+			<div class="container">
+				<div class="row  top-text">
+					<div class="col-md-8 col-md-offset-4">
+						<p>Предлагаем комплексные услуги для создания эффективно работающих, способствующих продвижению и развитию бизнеса сайтов, пользующихся повышенным спросом у современных пользователей мобильных предложений, высоко технологического программного обеспечения и других продуктов. Только лучшие решения, созданные в духе последних тенденций, соответствующие мировым тре- бованиям, выгодно выделяющие наших клиентов на фоне конкурентов, привлекающие всеобщее внимание. Все на- ши продукты обладают уникальным ди- зайном,выглядят достойно, дорого и солидно, подчеркивают высокую репу- тацию и деловой имидж заказчиков. Они функциональные, удобные в работе и для пользователей, работают на совре- менных платформах, что позволяет улучшать, расширять любыепродукты, доводя их до совершенства.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="blue-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 bb b1">
+						<h2>Лендинг</h2>
+						<p>Цена от 5500 рублей <br>Срок исполнения от 7 дней.</p>
+					</div>
+					<div class="col-md-3 bb  b2">
+						<h2>Интернет портал</h2>
+						<p>Цена от 20000 рублей <br>Срок исполнения от 15 дней.</p>
+					</div>
+					<div class="col-md-3 bb b3">
+						<h2>Интернет магазин</h2>
+						<p>Цена от 15000 рублей <br>Срок исполнения от 15 дней.</p>
+					</div>
+					<div class="col-md-3 bb b4">
+						<h2>Другое</h2>
+						<p>Не нашли то что искали? <br>Свяжитесь с нами!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row block-text">
+					<div class="col-md-8 text">
+						<p>Все наши продукты, созданные с индивидуальным подходом к каждому клиенту, обладают отличным качеством, максмальным удобством в управлении и пользовании, имеют высокую производительность, выдерживают повышенные нагрузки. При необходимости после создания сайта обучаем заказчика работе с ними, специально разработанная система управления позволяет самостоятельно легко и просто обновлять любые материалы. Разрабатываем для каждого сайта эксклюзивный дизайн, делая его эффектным, броским, уникальным, и в тоже время понятным каждому пользователю, наполняем полезной и важной информацией, помогаем с продвижением, осуще - ствляем дальнейшее обслуживание.</p>
+					</div>
+				</div>
+				<div class="row block-list">
+					<div class="col-md-12">
+						<p class="title">Также мы предлагаем</p>
+						<ul>
+							<li>
+								<p>Разработка мобильных приложений для компаний, желающих предложить свой продукт владельцам мобильных устройств, являющимся активными пользователями. Создаем игры, современные бизнес-программы, мобильные сайты или сервисы, адаптированные под любые устройства. Для активного продвижения бизнеса и масштабного охвата потребительской аудитории наличие собственной мобильной разработки является обязательным условием для компаний и организаций. Создаем Android и iOS приложения, другие актуальные продукты на современных платформах, выполняем все необходимые работы, направленные на полное решение любых задач клиентов. В комплексуслуг входит разработка эксклюзивного дизайна и функционала для мобильных приложений.</p>
+							</li>
+							<li>
+								<p>Разработка программного обеспечения для компаний и организацией различного направления, под задачи любой сложности,способствующего эффективной работе всех бизнес-структур. На основе высоких технологий наши опытные программисты создадут работающий, функциональный, удобный продукт под любые нужды, помогут его внедрению на предприятии, при необходимости обучат персонал или пользователей работе с программным обеспечением. Наши программы удобные в пользовании, доступные, функциональные, высокоэффективные, способствуют развитию бизнеса и решению любых задач</p>
+							</li>
+							<li>
+								<p>Дополнительные услуги – выполняя заказы клиентов на самом высоком уровне, предлагаем широкий выбор сопутствующих услуг – наполнение сайтов продающим контентом, необходимой информацией, фотоматериалами, заполнение интернет - магазинов товарами различных категорий с описаниями. Осуществляем поддержку, раскрутку, обслуживание, доработку сайта, выполняем настройки и администрирование.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="feedback" id="feedback">
+			<div class="container">
+				<div class="row">
+					<col-md-12>
+						<h2>Остались вопросы?</h2>
+					</col-md-12>
+				</div>
+				<div class="row">
+					<div class="col-md-7">
+						<form>
+							<div class="row">
+								<div class="col-md-4"><input type="text" name="name" placeholder="Имя" required></div>
+								<div class="col-md-4"><input type="text" name="name" placeholder="Телефон"></div>
+								<div class="col-md-4"><input type="text" name="name" placeholder="Email" required></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12"><textarea name="msg" placeholder="Сообщение..." required rows="8"></textarea></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="file-upload">
+										<label>
+											<input type="file" name="file" id="uploade-file">
+											<span>Добавить файл</span>
+										</label>
+									</div>
+									<input type="submit" name="submit" value="Отправить">
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="img"><img src="img/flogo.png" alt=""></div>
+					<ul>
+						<li><a href="#home" class="active" alt="Описание">Главная</a></li>
+						<li><a href="#our-services" alt="Описание">Разработка и IT</a></li>
+						<li><a href="#primeri" alt="Описание">Дизайн</a></li>
+						<li><a href="#contacts" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="#contacts" alt="Описание">Контакты</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<div class="footer-right">
+						<div class="link-mail"><a href="mailto:info@mid.network"><i class="fa fa-envelope-o"></i> info@mid.network</a></div>
+						<div class="footer-feedback"><button class="footer-btn-feedback">Заказать звонок</button></div>
+						<div class="soc"> 
+							<a href="#"><img src="img/img14.png" alt=""></a>
+							<a href="#"><img src="img/img15.png" alt=""></a>
+							<a href="#"><img src="img/img16.png" alt=""></a>
+							<a href="#"><img src="img/img17.png" alt=""></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copy">Авторские права защищены любое копирование запрещено! 2017</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script type="text/javascript">
+		//Плавный скролл до блока .div по клику на .scroll
+		//Документация: https://github.com/flesler/jquery.scrollTo
+		$(".about_main .btn").click(function() {
+			$.scrollTo($(".blue-line"), 800, {
+				offset: -120
+			});
+		});
+	</script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
