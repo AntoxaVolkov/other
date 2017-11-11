@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<style type="text/css">
+		body{
+			color:#111;
+		}
+		.banner {
+			background: url(img/bgdis.jpg) no-repeat 0px 0px;
+		}
+		
+		.about_main h2{
+			text-transform: none;
+		}
+		.top-text{
+			background: url(img/imgdis1.png) no-repeat 0px 0px;
+			background-position: 0% 50%;
+		}
+		.top-text p{
+			padding-left: 40px;
+			font-size: 24px; 
+		}
+		.block-text{
+			background-position: 100% 50%;
+		}
+		.block-text p{
+			padding-right: 10px;
+			font-size: 24px;
+		}
+		.block-list ul{
+			list-style: none;
+			padding-left: 0;
+		}
+		.block-list .title{
+			text-align: center;
+			font-size: 36px;
+			color: #002A60;
+		}
+		.block-list li p{
+			font-size: 24px;
+		}
+		.block-list li{
+			padding-left:110px;
+		}
+		.block-list li:nth-child(1){
+			background: url(img/imd1.jpg) no-repeat;
+		}
+		.block-list li:nth-child(2){
+			background: url(img/imd2.jpg) no-repeat;
+		}
+		.block-list li:nth-child(3){
+			background: url(img/imd3.jpg) no-repeat;
+		}
+		.blue-line{
+			background: linear-gradient(90deg, #7CADCA 0%, #002A60 50%, #7CADCA 100%);
+			height: 200px;
+			margin-top: 60px;
+			margin-bottom: 60px;
+		}
+		.blue-line .bb{
+			height: 240px;
+			margin-top: -20px;
+			color: #fff;
+			width: 20%;
+			float: left;
+			border: 1px solid #A9E8FF;
+		}
+		.blue-line .bb h2{
+			padding-top:20%; 
+			font-size: 28px;
+			text-align:center;
+		}
+		.blue-line .b1 h2,.blue-line .b5 h2{
+			padding-top:30%; 
+			text-align:center;
+		}
+		.blue-line .bb:hover h2{
+			height: 0;
+			overflow: hidden;
+			display: none;
+		}
+		.blue-line .bb:hover p{
+			display: block;
+		}
+		.blue-line .bb p{
+			display: none;
+			font-size: 24px;
+			padding-top: 30px;
+			text-align:center;
+		}
+		.blue-line .b1{
+			background: url(img/bgbb1.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b2{
+			background: url(img/imgdesb2.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b3{
+			background: url(img/imgdesb3.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b4{
+			background: url(img/imgdesb4.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+		.blue-line .b5{
+			background: url(img/bgbb4.jpg) no-repeat 0px 0px;
+			background-size: cover;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+		}
+
+	</style>
+
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	
+	<header>
+		<div class="top_line clearfix">
+			<div class="container">
+				<div class="top_logo">
+					<a href="#"><img src="img/logo.png" alt="Логотип"></a>
+				</div>
+				<div class="top_tel">
+					<button><i class="fa fa-phone"></i><span>Заказать звонок</span></button>
+				</div>
+				<nav class="top_nav">
+					<button class="btn_top_nav hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+					<ul>
+						<li><a href="index.html" class="active" alt="Описание">Главная</a></li>
+						<li><a href="it.html" alt="Описание">Разработка и IT</a></li>
+						<li><a href="dis.html" alt="Описание">Дизайн</a></li>
+						<li><a href="mar.html" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="#contacts" alt="Описание">Контакты</a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</div>
+		<div class="about_us banner" id="home">
+			<div class="container">
+				<div class="about_main">
+					<h1>Дизайн</h1>
+					<h2>Современный и оригинальный!</h2>
+					<button class="btn">Подробнее</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="content">
+		<section>
+			<div class="container">
+				<div class="row  top-text">
+					<div class="col-md-8 col-md-offset-4">
+						<p>Дизайн сайта имеет большое значение для его продвижения в сети, для увеличения количества продаж и заключенных сделок. От его выразительности, удобства и комфорта для пользователя, привлекательности и простоты восприятия во многом зависит, останется ли потенциальный покупатель или клиент на ресурсе, сделает заказ или, бегло взглянув, пойдет искать более удобный и понятный ресурс. Грамотная разработка внешнего вида интернет-магазина, лендинга, визитки или другого сайта это работа для профессионалов, умеющих находить уникальные решения для каждого конкретного заказа, творческих, неординарных личностей, работающих на результат. Мы знаем, каким должен быть дизайн эффективно работающего, продающего сайта, как привлечь внимание посетителей, чем зацепить их с первого взгляда.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="blue-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="bb b1">
+							<h2>Дизайн</h2>
+							<p>Цена от 2500<br>Срок исполнения от 5 дней.</p>
+						</div>
+						<div class="bb b2">
+							<h2>Оформление социальных сетей</h2>
+							<p>Цена от 1000<br>Срок исполнения от 3 дней.</p>
+						</div>
+						<div class="bb b3">
+							<h2>Разработка логотипа</h2>
+							<p>Цена от 1500<br>Срок исполнения от 5 дней.</p>
+						</div>
+						<div class="bb b4">
+							<h2>Разработка фирменного стиля</h2>
+							<p>Цена от 10000<br>Срок исполнения от 10 дней.</p>
+						</div>
+						<div class="bb b5">
+							<h2>Другое</h2>
+							<p>Не нашли то что искали? Свяжитесь с нами!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row block-text">
+					<div class="col-md-8 text">
+						<p>Своим клиентам предлагаем разработку дизайна и для других продуктов, использующихся для рекламы, продвижения товаров, привлечения новых покупателей, для демонстрации товаров и услуг.</p>
+					</div>
+				</div>
+				<div class="row block-list">
+					<div class="col-md-12">
+						<p class="title">Также мы предлагаем</p>
+						<ul>
+							<li>
+								<p>Веб-дизайн. Предлагаем разработку внешнего вида любого сайта, с учетом специфики, характера вашего бизнеса, целевой аудитории и представленного товара и услуг. Создаем дизайн с нуля или его отдельные элементы, корректируем или изменяем уже существующий внешний вид ресурса. Любую работу выполняем на самом высоком уровне, используем эффективные инструменты, внедряем инновационные технологии и собственные разработки. Только грамотный, продуманный дизайн, цепляющий и вызывающий желание остаться, оставляющий после себя приятное впечатление. В нашей команде работают профессиональные дизайнеры, имеющие большой опыт работы над проектами любой сложности. Ориентируясь на пожелания и запросы заказчиков, они создают неповторимые, стильные, оригинальные или интересные дизайны, понятные и легкие.</p>
+							</li>
+							<li>
+								<p>Фирменный стиль. Предлагаем разработку фирменного стиля компании, подчерки - вающего ее уникальность, выделяющего ее из огромного количества конкурентов, делающего узнаваемой среди потребителей, клиентов и партнеров. Наши опытные дизайнеры разработают оригинальный логотип, графический дизайн бланков, визиток, блокнотов, конвертов, буклетов, папок и других атрибутов. Уникальный и неповто - римый фирменный стиль – одна из составляющих успеха в бизнесе, возможность красиво преподнести себя и достойно выглядеть в глазах не только потребителей, но и конкурентов. С учетом ваших пожеланий, разработаем несколько вариантов логотипов и дизайна остальных фирменных продуктов, чтобы вы смогли выбрать самый лучший.</p>
+							</li>
+							<li>
+								<p>Оформление листовок и брошюр. Под заказ разработаем привлекательный, броский и запоминающийся дизайн любых рекламных продуктов, необходимых для привлечения потенциальных покупателей или клиентов. Создадим эффектный внешний вид длялистовок, буклетов, брошюр, проспектов, каталогов, который не останется без внимания, подчеркнет престиж, имидж и высокий статус вашей компании. Все наши проекты обладают высоким качеством, выглядят достойно, дорого и презентабельно, при этом имеютневысокую цену, доступную для всех клиентов.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="feedback" id="feedback">
+			<div class="container">
+				<div class="row">
+					<col-md-12>
+						<h2>Остались вопросы?</h2>
+					</col-md-12>
+				</div>
+				<div class="row">
+					<div class="col-md-7">
+						<form>
+							<div class="row">
+								<div class="col-md-4"><input type="text" name="name" placeholder="Имя" required></div>
+								<div class="col-md-4"><input type="text" name="name" placeholder="Телефон"></div>
+								<div class="col-md-4"><input type="text" name="name" placeholder="Email" required></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12"><textarea name="msg" placeholder="Сообщение..." required rows="8"></textarea></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="file-upload">
+										<label>
+											<input type="file" name="file" id="uploade-file">
+											<span>Добавить файл</span>
+										</label>
+									</div>
+									<input type="submit" name="submit" value="Отправить">
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="img"><img src="img/flogo.png" alt=""></div>
+					<ul>
+						<li><a href="#home" class="active" alt="Описание">Главная</a></li>
+						<li><a href="#our-services" alt="Описание">Разработка и IT</a></li>
+						<li><a href="#primeri" alt="Описание">Дизайн</a></li>
+						<li><a href="#contacts" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="#contacts" alt="Описание">Контакты</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<div class="footer-right">
+						<div class="link-mail"><a href="mailto:info@mid.network"><i class="fa fa-envelope-o"></i> info@mid.network</a></div>
+						<div class="footer-feedback"><button class="footer-btn-feedback">Заказать звонок</button></div>
+						<div class="soc"> 
+							<a href="#"><img src="img/img14.png" alt=""></a>
+							<a href="#"><img src="img/img15.png" alt=""></a>
+							<a href="#"><img src="img/img16.png" alt=""></a>
+							<a href="#"><img src="img/img17.png" alt=""></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copy">Авторские права защищены любое копирование запрещено! 2017</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script type="text/javascript">
+		//Плавный скролл до блока .div по клику на .scroll
+		//Документация: https://github.com/flesler/jquery.scrollTo
+		$(".about_main .btn").click(function() {
+			$.scrollTo($(".blue-line"), 800, {
+				offset: -120
+			});
+		});
+	</script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

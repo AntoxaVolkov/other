@@ -1,0 +1,629 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	color: #002A60;
+}
+
+/***   Header ****/
+.top_line{
+	padding-top: 10px;
+	padding-bottom: 7px;
+	margin: 0;
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	top:0;
+	z-index: 20;
+	height: 78px;
+}
+
+.top_logo{
+	padding-top: 10px;
+	float: left;
+}
+
+.top_logo img{
+	width: 77px;
+}
+
+.top_nav, .top_tel{
+	float: right;
+}
+
+.top_nav li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.top_nav ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.top_nav li a{
+	display: block;
+	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	padding: 15px 15px 18px;
+	line-height: 29px;
+	font-size: 18px;
+	color: #000;
+	font-weight: 100;
+}
+
+.top_nav li a:hover{
+	color: #002A60;
+}
+
+.top_nav li a.active{
+	color: #002A60;
+}
+
+.btn_top_nav{
+	//display: none;
+	border: none;
+	background: none;
+	font-size: 38px;
+	padding: 3px 15px 0px;
+    vertical-align: middle;
+	color: #002A60;
+}
+.btn_top_nav:hover{
+	color: #005d83;
+}
+
+.top_tel{
+	padding-top: 10px;
+	margin-left: 80px;
+}
+
+.top_tel i{
+	display: none;
+}
+
+.top_tel button{
+	font-family: "OpenSansSemiBold", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	padding:3px 25px;
+	margin-left: 15px;
+	background: #002A60;
+	color: #fff;
+	line-height: 29px;
+	font-size: 18px;
+	border: none;
+}
+
+.about_us{
+	margin-top: 78px;
+	color: #fff;
+}
+
+.banner {
+	background: url(../img/bg1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	min-height: 550px;
+}
+
+.about_main{
+	padding-top:80px;
+}
+
+.about_main h1{
+	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	margin-bottom: 0; 
+	line-height: 65px;
+	font-size: 53px;
+	text-align: center;
+}
+
+.about_main h2{
+	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	margin-top: 10px;
+	padding-right: 25px;
+	line-height: 65px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about_main .btn{
+	font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	margin-top:25px; 
+	padding: 10px 60px;
+	border: 3px solid #A9E8FF;
+	background: none;
+	font-size: 30px;
+}
+
+.about_main .btn:hover{
+	padding: 10px 60px;
+	border: 3px solid #A9E8FF;
+	background: #002A60;
+	font-size: 30px;
+}
+
+/**** End Header ****/
+
+/**** Why Us *****/
+	.why-us h2{
+		text-align: center;
+		font-size: 30px;
+		padding: 20px;
+		color: #002A60;
+	}
+
+	.why-us p{
+		padding: 0px 17px;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.why-us .img-ico{
+		text-align: center;
+		height: 100px;
+		margin-top: 30px;
+	}
+
+	.why-us .img-ico img{
+		vertical-align: bottom;
+	}
+/**** End Why Us *****/
+
+/**** Our Services *****/
+	.our_services{
+		background: url(../img/bg2.jpg) no-repeat 0px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		text-align: center;
+		min-height: 310px;
+	}
+
+	.our_services h2{
+		color: #fff;
+	}
+
+	.our_services .service-block{
+		display: block;
+		width: 292px;
+		height: 267px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -20px;
+		position: relative;
+	}
+
+	.service-block:hover h3{
+		bottom: 45%;
+	}
+
+	.service-block h3{
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+	  	-moz-osx-font-smoothing: grayscale;
+		position: absolute;
+		bottom: -10px;
+		width: 80%;
+		padding: 3px 5px;
+		margin: 0 10px;
+		color:#000;
+		background: #A9E8FF;
+		text-align: left;
+		-webkit-transition: bottom 1s ease-out 0s;
+		-moz-transition: bottom 1s ease-out 0s;
+		-o-transition: bottom 1s ease-out 0s;
+		transition: bottom 1s ease-out 0s;
+	}
+
+	.our_services .sb1{
+		background-image: url(../img/img7.jpg);
+	}
+
+	.our_services .sb2{
+		background-image: url(../img/img8.jpg);
+	}
+
+	.our_services .sb3{
+		background-image: url(../img/img9.jpg);
+	}
+
+
+/**** End Our Services *****/
+
+/**** Our Advantages *****/
+	.our_advantages{
+		margin-top: 50px;
+	}
+
+	.our_advantages h2{
+		text-align: center;
+		color: #002A60;
+	}
+
+	.our_advantages .img-ico{
+		float: left;
+		width: 75px;
+		margin: 0 0 10px;
+	}
+
+	.our_advantages p{
+		float: left;
+		width: 70%;
+		margin: 0 0 10px;
+	}
+
+	
+
+/**** End Our Advantages *****/
+
+/**** Our partners *****/
+	.our_partners{
+		background: url(../img/bg3.jpg) no-repeat 0px 0px;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		text-align: center;
+		min-height: 340px;
+		margin-top: 30px;
+	}
+
+	.our_partners h2{
+		font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+		text-align: center;
+		color: #fff;
+		font-size: 30px;
+	}
+
+	.sider_container img {
+		max-width: 100%;
+	}
+	.sider_container {
+		position: relative;
+	}
+	.next_button, .prev_button {
+		color: #fff;
+		cursor: pointer;
+		position: absolute;
+		top: 40%;
+		z-index: 10;
+	}
+	.next_button {
+		right: 0px;
+		top:30%;
+	}
+	.prev_button {
+		left: 0px;
+		top:30%;
+	}
+
+	.slide_item a{
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 0 auto;
+		background:rgba(255,255,255,0.5);
+		line-height: 200px;
+	}
+
+	
+
+/**** End Our partners *****/
+
+/**** Our News *****/
+	.news{
+		margin-top: 20px;
+	}
+
+	.news h2{
+		text-align: center;
+	}
+	.news h2 a{
+		color: #002A60;
+	}
+
+	.news .img{
+		float: left;
+		max-width: 150px;
+		max-height: 150px;
+		margin-bottom: 20px;
+	}
+	.news .img img{
+		max-width: 150px;
+		max-height: 150px;
+	}
+
+	.news p{
+		float: left;
+		width: 50%;
+		padding: 0 10px;
+		margin: 0;
+	}
+
+	.news .btn-news{
+		display: inline-block;
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+		padding:1px 25px;
+		margin:10px 0;
+		background: #002A60;
+		color: #fff;
+		font-size: 20px;
+		border: none;
+		margin-bottom: 20px;
+	}
+
+
+	.news .btn-news:hover{
+		background: #004c82;
+	}
+
+
+	.news .all-news a{
+		color:#666;
+		text-decoration: underline;
+	}
+	.news .all-news{
+		text-align: right;
+		width: 100%;
+	}
+	.news .all-news a:hover{
+		text-decoration: none;
+	}
+
+	
+
+/**** End Our News *****/
+
+/**** Our Qq *****/
+	.qq{
+		margin-top: 5px;
+		background: #002A60;
+		padding-bottom: 50px;
+	}
+
+	.qq h2{
+		text-align: center;
+		color: #fff;
+		margin-bottom: 0;
+	}
+
+	.qq h3{
+		color: #fff;
+		border-bottom: 1px dashed #fff;
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+		font-size: 24px;
+		cursor: pointer;
+	}
+
+	.qq p{
+		display: none;
+		background: #A9E8FF;
+		border-radius: 5px;
+		margin-left: 80px;
+		padding: 10px;
+		margin-top: 0px;
+
+		font-size: 24px;
+	}
+
+	
+
+	
+
+/**** End Qq *****/
+
+/**** feedback *****/
+	.feedback{
+		height:400px;
+	}
+	.feedback .container{
+		background: url(../img/woman.png) no-repeat 100px 100px;
+		background-position: 80% bottom;
+		height: 100%
+	}
+
+	.feedback h2{
+		padding-left: 15px;
+	}
+
+	.feedback input[type="text"]{
+		width: 100%;
+		border: 1px solid #002A60;
+		margin-bottom: 10px;
+	}
+
+	.file-upload input[type="file"]{
+		display: none;/* скрываем input file */
+	}
+
+/* задаем стили кнопки выбора файла*/
+
+	.file-upload {
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+		position: relative;
+		overflow: hidden;
+		width: 200px;
+		height: 30px;
+		display: inline-block;
+		background: #002A60;
+		color: #fff;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.file-upload:hover {
+		background: #004c82;
+	}
+
+	/* Растягиваем label на всю область блока .file-upload */
+
+	.file-upload label {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
+
+	/* стиль текста на кнопке*/
+
+	.file-upload span {
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif !important;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+		display: block;
+		width: 100%;
+		position: absolute;
+		top:0;
+		left: 0;
+		line-height: 30px;
+	}
+
+	.feedback textarea{
+		width: 100%;
+		border: 1px solid #002A60;
+		margin-bottom: 10px;
+		resize: vertical;
+	}
+
+	.feedback input[type="submit"]{
+		display: inline-block;
+		font-family: "OpenSansLight", Helvetica, Arial, sans-serif;
+		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+		padding:1px 25px;
+		margin:10px 0;
+		background: #002A60;
+		color: #fff;
+		font-size: 20px;
+		border: none;
+		margin: 0;
+		float: right;
+	}
+
+	.feedback input[type="submit"]:hover{
+		background: #004c82;
+	}
+
+/**** End feedback *****/
+
+/**** Footer *****/
+
+	.footer{
+		background: #002A60;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.footer a{
+		color: #fff;
+	}
+
+	.footer ul a{
+		text-decoration: underline;
+		font-size: 18px;
+	}
+
+	.footer ul a:hover{
+		text-decoration: none;
+	}
+
+	.footer ul{
+		padding: 0;
+		margin: 0;
+	}
+
+	.footer-btn-feedback{
+		width: 217px;
+		background: #fff;
+		border: none;
+		padding: 3px 15px;
+		color: #002A60;
+		font-weight: bold;
+		margin: 10px 0;
+	}
+
+	.footer-feedback{
+		text-align: right;
+	}
+
+	.footer  .link-mail{
+		font-size: 22px;
+		text-align: right;
+	}
+
+	.footer  .soc{
+		text-align: right;
+	}
+
+	.footer  .footer ul a:hover{
+		text-decoration: none;
+	}
+
+	.footer .img{
+		float: left;
+	}
+
+	.footer ul{
+		float: right;
+		list-style: none;
+	}
+
+	.footer .copy{
+		color:#666;
+		text-align: center;
+	}
+
+
+
+/**** End Footer ***/

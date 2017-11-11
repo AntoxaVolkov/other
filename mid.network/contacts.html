@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<style type="text/css">
+		body{
+			color:#111;
+		}
+
+		.about_main h2{
+			text-transform: none;
+		}
+		.banner {
+			background: url(img/bgm.jpg) no-repeat 0px 0px;
+		}
+		.contacts {
+			margin:20px 0;
+		}
+		.contacts p{
+			font-size: 54px;
+		}
+		.contacts p a{
+			font-size: 54px;
+			color:#000;
+		}
+		.contacts p i{
+			color:#002A60;
+		}
+		.contacts button{
+			font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+			-webkit-font-smoothing: antialiased;
+  			-moz-osx-font-smoothing: grayscale;
+			display: inline-block;
+			padding:1px 25px;
+			background: #002A60;
+			color: #fff;
+			font-size: 24px;
+			border: none;
+			margin: 0 0 30px;
+			text-align: center;
+			text-transform: capitalize;
+			width: 350px;
+		}
+		.contacts button:hover{
+			background: #004C80;
+		}
+		.contacts .btn-link:hover{
+			background: #004C80;
+		}
+		.contacts .btn-link{
+			display: inline-block;
+			padding:1px 25px;
+			background: #002A60;
+			color: #fff;
+			font-size: 24px;
+			border: none;
+			margin: 0;
+			text-align: center;
+			text-transform: capitalize;
+			width: 350px;
+		}
+		.tel-btn{
+			margin:0 0 20px;
+		}
+
+		.btn-block{
+			text-align: center;
+			padding-top: 100px;
+		}
+
+		.contacts-block{
+			border-right: 2px solid #002A60;
+		}
+
+		.feedback{
+			background: url(img/contbg.jpg) no-repeat 0px 0px;
+			height: 350px;
+		}
+		.feedback .container{
+
+			background: url(img/woman2.png) no-repeat 100px 100px;
+			background-position: 80% bottom;
+			-webkit-background-size: 300px;
+			background-size: 300px;
+		}
+		.feedback h2{
+			color:#fff;
+		}
+
+		.file-upload {
+			background: #fff;
+			color: #002A60;
+		}
+
+		.file-upload:hover {
+			background: #fff;
+			color: #446ea4;
+		}
+
+		.feedback input[type="submit"]{
+			background: #fff;
+			color: #002A60;
+		}
+
+		.feedback input[type="submit"]:hover{
+			background: #fff;
+			color: #446ea4;
+		}
+
+		.social .block-soc p{
+			color: #fff;
+			font-size: 24px;
+			padding-top: 30%;
+			text-align: center;
+		}
+
+
+		.social .block-soc:hover p{
+			opacity: 0;
+		}
+
+		.social .block-soc{
+			display: block;
+			width: 200px;
+			height: 200px;
+			background: #002A60;
+			margin: 5px auto;
+			cursor: pointer;
+		}
+
+		.social .bs:nth-child(4) .block-soc  div{
+			background: url(img/tel.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(4) .block-soc:hover  div{
+			background: url(img/telhover.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(3) .block-soc  div{
+			background: url(img/sk.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(3) .block-soc:hover  div{
+			background: url(img/skhover.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(2) .block-soc  div{
+			background: url(img/in.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(2) .block-soc:hover  div{
+			background: url(img/inhover.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(1) .block-soc div{
+			background: url(img/vk.png) no-repeat 0px 0px;
+		}
+
+		.social .bs:nth-child(1) .block-soc:hover  div{
+			background: url(img/vkhover.png) no-repeat 0px 0px;
+		}
+
+		.social .block-soc div{
+			background-position: 50% 50% !important;
+			height: 100% !important;
+		}
+		.feedback textarea{
+			width: 100%;
+			border: 1px solid #002A60;
+			margin-bottom: 10px;
+			resize: vertical;
+		}
+		.feedback textarea{
+			resize: none;
+		}
+		.social h2{
+			text-align: center;
+			font-size: 30px;
+			color:#002A60;
+			margin: 5px 0 0;
+		}
+		.social {
+			padding-bottom: 20px;
+		}
+
+	</style>
+
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	
+	<header>
+		<div class="top_line clearfix">
+			<div class="container">
+				<div class="top_logo">
+					<a href="#"><img src="img/logo.png" alt="Логотип"></a>
+				</div>
+				<div class="top_tel">
+					<button><i class="fa fa-phone"></i><span>Заказать звонок</span></button>
+				</div>
+				<nav class="top_nav">
+					<button class="btn_top_nav hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+					<ul>
+						<li><a href="index.html" class="active" alt="Описание">Главная</a></li>
+						<li><a href="it.html" alt="Описание">Разработка и IT</a></li>
+						<li><a href="dis.html" alt="Описание">Дизайн</a></li>
+						<li><a href="mar.html" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="contacts.html" alt="Описание">Контакты</a></li>
+					</ul>
+				</nav>
+				
+			</div>
+		</div>
+		<div class="about_us banner" id="home">
+			<div class="container">
+				<div class="about_main">
+					<h1>Контакты</h1>
+					<h2>Всегда на связи!</h2>
+					<button class="btn">Подробнее</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="content c-contacts">
+		<section class=" contacts">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 contacts-block">
+						<p>
+							<a href="mailto:info@mid.network"><i class="fa fa-envelope-o"></i> info@mid.network</a><br>
+							<i class="fa fa-clock-o"></i> <span>пн-пт 8:00 - 18:00</span><br>
+							<i class="fa fa-phone"></i> <span>+7 (000) 0000000</span>
+						</p>
+					</div>
+					<div class="col-md-5 btn-block">
+						<div>
+							<button><span>Заказать звонок</span></button>
+						</div>
+						<div>
+							<a href="http://tz-maker.ru" class="btn-link"><span>Составить техническое задание</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="feedback" id="feedback">
+			<div class="container">
+				<div class="row">
+					<col-md-12>
+						<h2>Остались вопросы?</h2>
+					</col-md-12>
+				</div>
+				<div class="row">
+					<div class="col-md-7">
+						<form>
+							<div class="row">
+								<div class="col-md-4"><input type="text" name="name" placeholder="Имя" required></div>
+								<div class="col-md-4"><input type="text" name="name" placeholder="Телефон"></div>
+								<div class="col-md-4"><input type="text" name="name" placeholder="Email" required></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12"><textarea name="msg" placeholder="Сообщение..." required rows="8"></textarea></div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="file-upload">
+										<label>
+											<input type="file" name="file" id="uploade-file">
+											<span>Добавить файл</span>
+										</label>
+									</div>
+									<input type="submit" name="submit" value="Отправить">
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="social">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Мы в социальных сетях</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 bs">
+						<a href="https://vk.com/midnet" class="block-soc">
+							<div>
+								<p>Мы вконтакте</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 bs">
+						<a href="https://vk.com/midnet" class="block-soc">
+							<div>
+								<p>Следи за нами в Instagram</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 bs">
+						<a href="skype:Dodonov24" href="" class="block-soc">
+							<div>
+								<p>Позвони нам на Skype</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 bs">
+						<a href="https://t.me/midnetwork" class="block-soc">
+							<div>
+								<p>Напиши нам в Telegram</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="img"><img src="img/flogo.png" alt=""></div>
+					<ul>
+						<li><a href="#home" class="active" alt="Описание">Главная</a></li>
+						<li><a href="#our-services" alt="Описание">Разработка и IT</a></li>
+						<li><a href="#primeri" alt="Описание">Дизайн</a></li>
+						<li><a href="#contacts" alt="Описание">Маркетинг и реклама</a></li>
+						<li><a href="#contacts" alt="Описание">Контакты</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<div class="footer-right">
+						<div class="link-mail"><a href="mailto:info@mid.network"><i class="fa fa-envelope-o"></i> info@mid.network</a></div>
+						<div class="footer-feedback"><button class="footer-btn-feedback">Заказать звонок</button></div>
+						<div class="soc"> 
+							<a href="#"><img src="img/img14.png" alt=""></a>
+							<a href="#"><img src="img/img15.png" alt=""></a>
+							<a href="#"><img src="img/img16.png" alt=""></a>
+							<a href="#"><img src="img/img17.png" alt=""></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copy">Авторские права защищены любое копирование запрещено! 2017</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script type="text/javascript">
+		//Плавный скролл до блока .div по клику на .scroll
+		//Документация: https://github.com/flesler/jquery.scrollTo
+		$(".about_main .btn").click(function() {
+			$.scrollTo($("#feedback"), 800, {
+				offset: -80
+			});
+		});
+	</script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

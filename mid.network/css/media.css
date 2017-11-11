@@ -1,0 +1,235 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.top_tel{
+		margin-left: 0;
+	}
+
+	.container {
+    	position: relative;
+	}
+	.top_tel{
+		float: left;
+		margin-left: 50px;
+	}
+	.top_nav ul{
+		display: none;
+		position: absolute;
+		top:60px;
+		right: 0;
+		width:100%;
+		background: #fff;
+	}
+	.top_tel{
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-left: 80px;
+	}
+	.btn_top_nav{
+		display: block;
+	}
+	.complex_approach p, .map p{
+		padding: 0px 100px;
+	}
+
+	.next_button {
+		right: -10px;
+	}
+	.prev_button {
+		left: -10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.our_services {
+		background-image: none;
+		background-color: #002960;
+	}
+
+	.our_services .service-block{
+		margin-bottom: 30px;
+	}
+
+	.our_advantages .img-ico{
+		margin: 0 0 20px;
+	}
+
+	.our_advantages p{
+		margin: 0 0 20px;
+	}
+
+	.feedback{
+		height:420px;
+	}
+
+	.about_main{
+		padding-top:20px;
+	}
+
+	.footer-right{
+		width: 218px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+
+	.footer-right .soc{
+		text-align: center;
+	}
+
+	.top-text, .block-text{
+		background: none;
+	}
+
+	.blue-line .bb{
+		height: auto;
+		margin-top:0;
+		color: #fff;
+		width: 100%;
+		float: none;
+		border: none;
+	}
+
+	.blue-line .bb h2{
+		padding-top:0; 
+		font-size: 28px;
+		text-align:center;
+	}
+	.blue-line .bb p{
+		display: block;
+		padding-top:0; 
+		font-size: 24px;
+		text-align:center;
+	}
+
+	.blue-line .bb{
+		background: none !important;
+	}
+	.blue-line{
+		background: linear-gradient(90deg, #7CADCA 0%, #002A60 50%, #7CADCA 100%);
+		height: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.blue-line .bb:hover h2{
+		height: auto;
+		overflow: visible;
+		display: block;
+	}
+
+	.contacts-block{
+		border-right: none;
+	}
+
+	.c-contacts .feedback .container{
+
+		background: none;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_tel{
+		float: left;
+		margin-left: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.about_main h1{
+		line-height: 35px;
+		font-size: 30px;
+	}
+
+	.about_main h2{
+		margin-top: 15px;
+		line-height: 28px;
+		font-size: 20px;
+	}
+	
+
+	.about_main{
+		padding-top:30px;
+	}
+
+	.top_tel {
+		padding: 9px 0;
+	}
+
+	.top_tel i{
+		display: inline;
+	}
+
+	.top_tel span{
+		display: none;
+	}
+
+	.top_tel button{
+		border-radius: 50% 50%;
+		padding: 8px 13px;
+	}
+
+	.feedback .container{
+		background: none;
+		height:450px;
+	}
+
+	.file-upload{
+		float: none;
+		margin: 0 auto;
+		margin-right: 100px;
+	}
+
+	.feedback input[type="submit"]{
+		float: none;
+		margin-right: 100px;
+	}
+
+
+	.block-list li{
+		padding-left:0;
+		padding-top:100px;
+		text-align: justify;
+	}
+	.block-list li{
+		background-position: 50% top !important;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.top_nav ul{
+			display: inline-block !important;
+	}
+}
